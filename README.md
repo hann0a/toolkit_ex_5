@@ -27,10 +27,11 @@ in terminal (bash)
 
 ## Making Changes
 
-- `git add "filename.py"` -  stage a file for commit
+- `git add filename.exe` -  stage a file for commit
 - `git commit -m "message"` – commit changes with a message
 - `git push origin main` – send changes to GitHub
 - `git pull origin main` – pull changes from GitHub
+- `git rm filename.exe` - delete a file from repository
 
 ### Example changes in README.md file:
 

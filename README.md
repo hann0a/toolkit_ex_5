@@ -32,10 +32,16 @@ in terminal (bash)
 - `git push origin main` – send changes to GitHub
 - `git pull origin main` – pull changes from GitHub
 
-Example changes in README.md file:
-`subl README.md 
-'>>>edit the file in your text editor'
+### Example changes in README.md file:
+
+1. Open the `README.md` file for editing:
+```bash
+subl README.md 
+```
+2. Edit the file in your text editor
+3. Upload changes from your local machine to your online repository
+```bash
 git add README.md
 git commit -m "readme"
 git push origin main
-`
+```

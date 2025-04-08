@@ -27,9 +27,15 @@ in terminal (bash)
 
 ## Making Changes
 
- Stage a file for commit
-
 - `git add "filename.py"` -  stage a file for commit
 - `git commit -m "message"` – commit changes with a message
 - `git push origin main` – send changes to GitHub
 - `git pull origin main` – pull changes from GitHub
+
+Example changes in README.md file:
+`subl README.md 
+'>>>edit the file in your text editor'
+git add README.md
+git commit -m "readme"
+git push origin main
+`
